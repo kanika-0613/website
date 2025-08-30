@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Depression Test (PHQ-9)</title>
+<style>
+    body { font-family: Arial, sans-serif; padding: 20px;}
+    .container { max-width: 700px; margin: auto; background: rgb(199, 246, 247); padding: 20px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+    h1 { text-align: center; }
+    .question { margin: 15px 0; }
+    label { display: block; margin: 5px 0; }
+    button { display: block; margin: 20px auto; background: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 5px; font-size: 16px; cursor: pointer; }
+    button:hover { background: #45a049; }
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Depression Test <i>(PHQ-9)</i></h1>
+<p>Over the last 2 weeks, how often have you been bothered by the following problems?</p>
+<form action="thankyou.html" method="post">
+    <div class="question">
+        <p>1. Little interest or pleasure in doing things</p>
+        <label><input type="radio" name="q1"> Not at all</label>
+        <label><input type="radio" name="q1"> Several days</label>
+        <label><input type="radio" name="q1"> More than half the days</label>
+        <label><input type="radio" name="q1"> Nearly every day</label>
+    </div>
+    <div class="question">
+        <p>2. Feeling down, depressed, or hopeless</p>
+        <label><input type="radio" name="q2"> Not at all</label>
+        <label><input type="radio" name="q2"> Several days</label>
+        <label><input type="radio" name="q2"> More than half the days</label>
+        <label><input type="radio" name="q2"> Nearly every day</label>
+    </div>
+    <div class="question">
+        <p>3. Trouble falling or staying asleep, or sleeping too much</p>
+        <label><input type="radio" name="q3"> Not at all</label>
+        <label><input type="radio" name="q3"> Several days</label>
+        <label><input type="radio" name="q3"> More than half the days</label>
+        <label><input type="radio" name="q3"> Nearly every day</label>
+    </div>
+    <div class="question">
+        <p>4. Feeling tired or having little energy</p>
+        <label><input type="radio" name="q4"> Not at all</label>
+        <label><input type="radio" name="q4"> Several days</label>
+        <label><input type="radio" name="q4"> More than half the days</label>
+        <label><input type="radio" name="q4"> Nearly every day</label>
+    </div>
+    <div class="question">
+        <p>5. Poor appetite or over-eating</p>
+        <label><input type="radio" name="q5"> Not at all</label>
+        <label><input type="radio" name="q5"> Several days</label>
+        <label><input type="radio" name="q5"> More than half the days</label>
+        <label><input type="radio" name="q5"> Nearly every day</label>
+    </div>
+    <div class="question">
+        <p>6. Feeling bad about yourself or that you are a failure</p>
+        <label><input type="radio" name="q6"> Not at all</label>
+        <label><input type="radio" name="q6"> Several days</label>
+        <label><input type="radio" name="q6"> More than half the days</label>
+        <label><input type="radio" name="q6"> Nearly every day</label>
+    </div>
+    <div class="question">
+        <p>7. Trouble concentrating on things</p>
+        <label><input type="radio" name="q7"> Not at all</label>
+        <label><input type="radio" name="q7"> Several days</label>
+        <label><input type="radio" name="q7"> More than half the days</label>
+        <label><input type="radio" name="q7"> Nearly every day</label>
+    </div>
+    <div class="question">
+        <p>8. Thoughts that you would be better off dead or hurting yourself</p>
+        <label><input type="radio" name="q8"> Not at all</label>
+        <label><input type="radio" name="q8"> Several days</label>
+        <label><input type="radio" name="q8"> More than half the days</label>
+        <label><input type="radio" name="q8"> Nearly every day</label>
+    </div>
+    <button type="submit">Submit</button>
+</form>
+</div>
+</body>
+</html>

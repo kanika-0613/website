@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MindMetrics</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: linear-gradient(to right, #89f7fe, #66a6ff);
+    }
+    header {
+      background: rgba(0, 0, 0, 0.7);
+      backdrop-filter: blur(5px);
+      padding: 15px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: #97f3ff;
+    }
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+      color: #66a6ff;
+    }
+    nav {
+      margin-top: 15px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffd700;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 50px auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 0 20px;
+    }
+    .card {
+      background: white;
+      backdrop-filter: blur(10px);
+      padding: 25px;
+      border-radius: 15px;
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    }
+    .card h2 {
+      margin: 0 0 15px;
+      font-size: 1.5rem;
+    }
+    .card a {
+      text-decoration: none;
+      background: #ffd700;
+      color: #333;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .card a:hover {
+      background: #ffae00;
+    }
+     footer {
+      background: rgba(0, 0, 0, 0.7);
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 100px;
+      text-align: center;
+      justify-items: center;
+      justify-content: center;
+     }
+    footer h3 {
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+      color: #ffd700;
+    }
+    footer p, footer a {
+      font-size: 0.95rem;
+      color: #eee;
+      text-decoration: none;
+    }
+    footer a:hover {
+      color: #ffd700;
+    }
+  </style>
+</head>
+<body>
+<header>
+    <h1><i>Mental Health Screening</i></h1>
+    <p><b>Choose a test below to learn more about your mental well-being</b></p>
+    <nav>
+      <a href="depression.html">Depression</a>
+      <a href="anxiety.html">Anxiety</a>
+      <a href="bipolar.html">Bipolar</a>
+      <a href="ptsd.html">PTSD</a>
+      <a href="adhd.html">ADHD</a>
+      <a href="eating.html">Eating Disorders</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>Depression Test</h2>
+      <p>Check for symptoms of depression using the PHQ-9 scale.</p>
+      <a href="depression.html">Start Test</a>
+    </div>
+
+    <div class="card">
+      <h2>Anxiety Test</h2>
+      <p>Assess anxiety levels with the GAD-7 questionnaire.</p>
+      <a href="anxiety.html">Start Test</a>
+    </div>
+
+    <div class="card">
+      <h2>Bipolar Test</h2>
+      <p>Screen for bipolar disorder with the Mood Disorder Questionnaire.</p>
+      <a href="bipolar.html">Start Test</a>
+    </div>
+
+    <div class="card">
+      <h2>PTSD Test</h2>
+      <p>Evaluate PTSD symptoms with the PCL-5 checklist.</p>
+      <a href="ptsd.html">Start Test</a>
+    </div>
+
+    <div class="card">
+      <h2>ADHD Test</h2>
+      <p>Check attention and focus symptoms with the ASRS scale.</p>
+      <a href="adhd.html">Start Test</a>
+    </div>
+
+    <div class="card">
+      <h2>Eating Disorder Test</h2>
+      <p>Screen for eating-related concerns with the SCOFF questionnaire.</p>
+      <a href="eating.html">Start Test</a>
+    </div>
+  </div>
+ <footer>
+    <div>
+      <h3>Quick Links</h3>
+      <p><a href="index.html">Home</a> | <a href="#tests">Tests</a> | <a href="about.html">About</a></p>
+    </div>
+    <div>
+      <h3>Need Help?</h3>
+      <p>If you are in crisis, please seek professional help immediately or call your local helpline.</p>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <p>Email: support@mentalhealth.org</p>
+      <p>Phone: +91 12345 67890</p>
+    </div>
+  </footer>
+
+</body>
+</html>
